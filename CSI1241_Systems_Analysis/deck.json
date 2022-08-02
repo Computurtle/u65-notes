@@ -88,11 +88,11 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basic",
+            "name": "Basic-49a6a",
             "req": [
                 [
                     0,
-                    "all",
+                    "any",
                     [
                         0
                     ]
@@ -124,6 +124,16 @@
                 "Testing"
             ],
             "guid": "Pk.j+6MDk|",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Test 2",
+                "Hopefully this works"
+            ],
+            "guid": "yXEH9U&n#e",
             "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
             "tags": []
         }
