@@ -1,0 +1,1535 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "02caa46f-f8d3-11ed-82d8-d85ed324997c",
+    "deck_config_uuid": "7e652370-1241-11ed-82da-d85ed324997c",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "7e652370-1241-11ed-82da-d85ed324997c",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 0,
+                "perDay": 30
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 300
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "img1045972630167712073.jpg",
+        "img1668315308121033702.jpg",
+        "img1750857463079798093.jpg",
+        "img4763255888675379885.jpg",
+        "img4918189775780564323.jpg",
+        "img6704485968679532604.jpg",
+        "img6937244943296399530.jpg",
+        "img7430203786089743900.jpg",
+        "img8167310610122812820.jpg",
+        "paste-0e7aef13231b995e45d4a86469f28502e595267d.png",
+        "paste-3f3b07a889ed716aab06eddf087759ebc999a59a.png",
+        "paste-3fdd5633c58c4cb17b65f5086a0646a42403b5da.png",
+        "paste-9bd06fc66fad494f5f3b796b2fd3cc70507611da.jpg",
+        "paste-a8cbf4ec2a3368a90272bd56baec6aae45a22cec.jpg",
+        "paste-bcf6c0314d79780e380a99cc74bf014cd04b6a4c.png",
+        "paste-cf29a1d358d168dee348e26711ac6ff8a2ead5df.png",
+        "paste-e45c98a4496396461417dc6d497ff644c76e5a6b.png"
+    ],
+    "name": "MAT1252 Mathematics for Computing",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic-49a6a",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "What base is decimal notation?",
+                "10 - (X)<span style=\"font-size:x-small\">10</span>"
+            ],
+            "guid": "wf=nO",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What base is binary notation?",
+                "2 - (X)<span style=\"font-size:x-small\">2</span>"
+            ],
+            "guid": "p$e!D",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What base is octal notation?",
+                "8 - (X)<span style=\"font-size:x-small\">8</span>"
+            ],
+            "guid": "WE]H5",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What base is hexadecimal notation?",
+                "16 - (X)<span style=\"font-size:x-small\">16</span>"
+            ],
+            "guid": "sq|cT",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is an easy way to calculate the remainder when converting decimal to octal/binary/hexadecimal",
+                "Divide the decimal number by the notations base, take the integer of the answer and minus (the integer * base) to the decimal number<br><br>e.g. (171)<span style=\"font-size:x-small\">10</span> to octal<br>171 / 8 = <b>21</b>.375<br>171 - (21 x 8) = <b>3</b><br>Remainder is <b>3</b>"
+            ],
+            "guid": "M.GRH",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you convert from decimal to octal/binary/hexadecimal",
+                "Divide the decimal by the other notations base number until the answer is 0 only dividing the integer part of the results, then read the remainders in reverse order<br><br><img src=\"img6937244943296399530.jpg\"><br><br><img src=\"img4763255888675379885.jpg\">"
+            ],
+            "guid": "-j+z5",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you convert from binary/octal/hexadecimal fractions to decimal fractions",
+                "First convert the number into decimal ignoring the 0. and put that as the numerator of the fraction with the denominator as the bases number to the power of the amount of decimals<br><br>e.g. 0.1101<span style=\"font-size:x-small\">2</span> to decimal<br>1101<span style=\"font-size:x-small\">2</span> = 13<span style=\"font-size:x-small\">10</span><br>The example has 4 decimal places so the denominator is 2 to the power of 4<br><br><img src=\"img4918189775780564323.jpg\">"
+            ],
+            "guid": ",@9x8",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you convert a decimal fraction into a binary fraction",
+                "Repeatedly multiply the digits to the right of the decimal point by 2, until 0s remain. Then read the integer parts from top to bottom.<br><br><img src=\"img1668315308121033702.jpg\">"
+            ],
+            "guid": "*>3i",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you do addition in octal?",
+                "Add the units, then tens, then hundreds etc. like you would in decimal, carrying the 1s however remember 8 is the base number.<br><br>6 + 5 != 11<br>11 - 8 = 3<br>so in octal<br>6 + 5 = 13<br><br><img src=\"img7430203786089743900.jpg\">"
+            ],
+            "guid": "OQ@SJ",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you do addition in binary",
+                "Similar to decimal start with the units, then tens, then hundreds etc.<br><br>If there is one 1, put a 1 in that column<br>If there is two 1s, put a 0 in that column and carry the 1<br>If there is three 1s, put a 1 in that column and carry the 1<br><br><img src=\"img6704485968679532604.jpg\">"
+            ],
+            "guid": "M4~s6",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you do addition in hexadecimal",
+                "Remembering that A-F is equal to 10-15, do the units, then the tens, then the hundreds. If a result is higher than 15 then take 16 from the answer, put the answer in that column and carry the 1<br><br><img src=\"img1045972630167712073.jpg\">"
+            ],
+            "guid": "f%h^B",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is BCD",
+                "Binary Coded Decimal<br><br>Converting each decimal digit into a 4-bit binary number<br><br>65 = 0110 0101<br>6 = 0110<br>5 = 0101"
+            ],
+            "guid": "O8Uh[0NsX&",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you convert a BCD number back into a decimal number",
+                "Divide the BCD number into 4-bit segments and then convert each 4-bit segment into its respective decimal<br><br>0101011100000001<br>0101-0111-0000-0001<br>&nbsp; &nbsp;5&nbsp; &nbsp; &nbsp; &nbsp;7&nbsp; &nbsp; &nbsp; &nbsp;0&nbsp; &nbsp; &nbsp; 1"
+            ],
+            "guid": "D6`AH|PN[{",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you do addition of BCD numbers",
+                "The input from a user will be in decimal, from right to left calculate each column and answer it in hexadecimal, if the answer is &gt;9 add 6 to the answer and from that answer carry the 1 if &gt;15.<br><br>The non carried answer will reppresent the decimal result<br><br><img src=\"paste-a8cbf4ec2a3368a90272bd56baec6aae45a22cec.jpg\">"
+            ],
+            "guid": "jk9$/IwRoV",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a proposition",
+                "A statement that is either true or false, usually represented by a single letter"
+            ],
+            "guid": "c-K9oAYWsk",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a compound proposition",
+                "A coumpound proposition is built from simple propositions using connectives (operators)"
+            ],
+            "guid": "g0b0_qu<@`",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 4 main connectives (operators)",
+                "NOT&nbsp; &nbsp; &nbsp; &nbsp;=&nbsp; &nbsp; ~<br>AND&nbsp; &nbsp; &nbsp; &nbsp;=&nbsp; &nbsp; ∧<br>OR&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=&nbsp; &nbsp; ∨<br>If Then&nbsp; &nbsp;=&nbsp; &nbsp;&nbsp;→"
+            ],
+            "guid": "KBht>sCJc5",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Examples of compund propositions",
+                "p: <font color=\"#0000ff\">The file is being printed</font><br>q: <font color=\"#00ff00\">The system is ready</font><br>r: <font color=\"#ff0000\">The light is on</font><br><br>If <font color=\"#00ff00\">the system is ready</font> and <font color=\"#ff0000\">the red light is on</font> then <font color=\"#0000ff\">the file is printed</font><br>(<font color=\"#00ff00\">q</font> ∧ <font color=\"#ff0000\">r</font>)&nbsp;<span style=\"color: rgb(32, 33, 34); font-weight: 700; background-color: rgb(234, 236, 240);\">→ </span><span style=\"background-color: rgb(234, 236, 240);\"><font color=\"#0000ff\">p</font><br><br><font color=\"#202122\">If </font></span><span style=\"background-color: rgb(234, 236, 240);\"><font color=\"#0000ff\">the file is</font></span><span style=\"color: rgb(32, 33, 34); background-color: rgb(234, 236, 240);\"> not </span><span style=\"background-color: rgb(234, 236, 240);\"><font color=\"#0000ff\">printed</font></span><span style=\"color: rgb(32, 33, 34); background-color: rgb(234, 236, 240);\"> then either </span><span style=\"background-color: rgb(234, 236, 240);\"><font color=\"#ff0000\">the red light is</font></span><span style=\"color: rgb(32, 33, 34); background-color: rgb(234, 236, 240);\"> not </span><span style=\"background-color: rgb(234, 236, 240);\"><font color=\"#ff0000\">on</font></span><span style=\"color: rgb(32, 33, 34); background-color: rgb(234, 236, 240);\"> or </span><span style=\"background-color: rgb(234, 236, 240);\"><font color=\"#00ff00\">the system is</font></span><span style=\"color: rgb(32, 33, 34); background-color: rgb(234, 236, 240);\"> not </span><span style=\"background-color: rgb(234, 236, 240);\"><font color=\"#00ff00\">ready</font><br><font color=\"#202122\">~</font></span><span style=\"background-color: rgb(234, 236, 240);\"><font color=\"#0000ff\">p</font></span><span style=\"color: rgb(32, 33, 34); background-color: rgb(234, 236, 240);\">&nbsp;</span><span style=\"color: rgb(32, 33, 34); font-weight: 700; background-color: rgb(234, 236, 240);\">→ </span><span style=\"color: rgb(32, 33, 34); background-color: rgb(234, 236, 240);\">(~</span><span style=\"background-color: rgb(234, 236, 240);\"><font color=\"#ff0000\">r</font></span><span style=\"color: rgb(32, 33, 34); background-color: rgb(234, 236, 240);\">&nbsp;</span>∨<span style=\"color: rgb(32, 33, 34); background-color: rgb(234, 236, 240);\">&nbsp;~</span><span style=\"background-color: rgb(234, 236, 240);\"><font color=\"#00ff00\">q</font></span><span style=\"color: rgb(32, 33, 34); background-color: rgb(234, 236, 240);\">)<br><br>Either </span><span style=\"background-color: rgb(234, 236, 240);\"><font color=\"#ff0000\">the red light is on</font></span><span style=\"color: rgb(32, 33, 34); background-color: rgb(234, 236, 240);\"> and </span><span style=\"background-color: rgb(234, 236, 240);\"><font color=\"#0000ff\">the file is printed</font></span><span style=\"color: rgb(32, 33, 34); background-color: rgb(234, 236, 240);\"> or </span><span style=\"background-color: rgb(234, 236, 240);\"><font color=\"#00ff00\">the system is</font></span><span style=\"color: rgb(32, 33, 34); background-color: rgb(234, 236, 240);\"> not </span><span style=\"background-color: rgb(234, 236, 240);\"><font color=\"#00ff00\">ready</font><br><font color=\"#202122\">(</font><font color=\"#ff0000\">r</font><font color=\"#202122\">&nbsp;</font></span>∧ <font color=\"#0000ff\">p</font>) ∨ ~<font color=\"#00ff00\">q</font>"
+            ],
+            "guid": "sRbF4]3{@-",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a truth table",
+                "A truth table shows all the possible combinations of the simple propositions and the corresponding truth values of the compound proposition.<br><br>True = 1<br>False = 0"
+            ],
+            "guid": "L+%E&-XRX1",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Example of NOT truth table",
+                "<u>p | ~p</u><br>0 |&nbsp; 1<br>1 |&nbsp; 0"
+            ],
+            "guid": "Xg(U=r~qB",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Example of an AND truth table",
+                "<u>p | q | p∧q</u><br>0 | 0 |&nbsp; &nbsp;0<br>0 | 1 |&nbsp; &nbsp;0<br>1 | 0 |&nbsp; &nbsp;0<br>1 | 1 |&nbsp; &nbsp;1"
+            ],
+            "guid": "x(`|6gHAc^",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Example of an OR truth table",
+                "<u>p | q | p∨q</u><br>0 | 0 |&nbsp; &nbsp;0<br>0 | 1 |&nbsp; &nbsp;1<br>1 | 0 |&nbsp; &nbsp;1<br>1 | 1 |&nbsp; &nbsp;1"
+            ],
+            "guid": "gL|[wF^|;D",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Example of an XOR truth table",
+                "<u>p | q | p⊻q</u><br>0 | 0 |&nbsp; &nbsp;0<br>0 | 1 |&nbsp; &nbsp;1<br>1 | 0 |&nbsp; &nbsp;1<br>1 | 1 |&nbsp; &nbsp;0"
+            ],
+            "guid": "v:e[?hK6(e",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is it called when a propisition is true for every combination truth value in a truth table",
+                "A <b>Tautology</b>"
+            ],
+            "guid": "zMGDc%w`>]",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is called when a propisition is false for every combination truth value in a truth table",
+                "A <b>Contradiction</b>"
+            ],
+            "guid": "g<R25]|(=B",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is called when two propositions have the same truth table outcome",
+                "Logical Equivalence"
+            ],
+            "guid": "HyQP^q}[Yi",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the symbol for a logical equivalence",
+                "≡"
+            ],
+            "guid": "O*P1hE&eYy",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In what order should you start to solve a truth table",
+                "Brackets, IF THEN, NOT, OR, AND"
+            ],
+            "guid": "x>RmV;Xnk;",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is De Morgan's laws",
+                "De Morgan's laws show how to negate statements that contain an AND or an OR<br><br>Negation of AND is OR<br>Negation of OR is AND<br><br>~(p <b>∨</b> q)&nbsp; ≡&nbsp; ~p <b>∧</b> ~q<br>~(p <b>∧</b>&nbsp;q)&nbsp; ≡&nbsp; ~p <b>∨</b>&nbsp;~q"
+            ],
+            "guid": "E{@)IYYDGU",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the distributive laws",
+                "Similar to algebra, you times whats inside the brackets with what is outside<br><br>a x (b + c)<br>(a x b) + (a x c)<br><br>p&nbsp;∨ (q&nbsp;∧ r)<br>(p ∨ q)&nbsp;∧ (p ∨ r)"
+            ],
+            "guid": "t-#IdlwBHP",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a conditional statement",
+                "Represented in plain english a condition statement like \"if p then q\" is represented as <b>p&nbsp;</b><span style=\"color: rgb(32, 33, 34); background-color: rgb(234, 236, 240);\">→</span><span style=\"color: rgb(32, 33, 34); background-color: rgb(234, 236, 240);\"> </span><span style=\"color: rgb(32, 33, 34); font-weight: 700; background-color: rgb(234, 236, 240);\">q</span>"
+            ],
+            "guid": "g_5!ID8:JM",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Example of an IF THEN truth table",
+                "<u>p | q | p→q</u><br>0 | 0 |&nbsp; &nbsp;1<br>0 | 1 |&nbsp; &nbsp;1<br>1 | 0 |&nbsp; &nbsp;0<br>1 | 1 |&nbsp; &nbsp;1"
+            ],
+            "guid": "m=}/z}xG&D",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In the example <font color=\"#202122\"><span style=\"background-color: rgb(234, 236, 240);\">p</span></font><span style=\"color: rgb(32, 33, 34); background-color: rgb(234, 236, 240);\">→q, given only that you know p is 0 (false) what is the outcoming truth table result no matter what</span>",
+                "1 (true)<br><br><img src=\"paste-9bd06fc66fad494f5f3b796b2fd3cc70507611da.jpg\">"
+            ],
+            "guid": "IO<N_DD`Yb",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is one example of a negation for ~(p<span style=\"color: rgb(32, 33, 34); font-weight: 700; background-color: rgb(234, 236, 240);\">→</span><span style=\"color: rgb(32, 33, 34); background-color: rgb(234, 236, 240);\">q)</span>",
+                "p&nbsp;∧ ~q"
+            ],
+            "guid": "JX<@`/g7fH",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the contrapositive of p<span style=\"color: rgb(32, 33, 34); font-weight: 700; background-color: rgb(234, 236, 240);\">→</span><span style=\"color: rgb(32, 33, 34); background-color: rgb(234, 236, 240);\">q</span>",
+                "<font color=\"#202122\"><span style=\"background-color: rgb(234, 236, 240);\">~q&nbsp;</span></font><span style=\"color: rgb(32, 33, 34); background-color: rgb(234, 236, 240);\">→ ~p<br><br>This means they are logically equivelant</span>"
+            ],
+            "guid": "bj6&pr)6I",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the converse of p<span style=\"color: rgb(32, 33, 34); background-color: rgb(234, 236, 240);\">→q</span>",
+                "q<span style=\"color: rgb(32, 33, 34); background-color: rgb(234, 236, 240);\">→p<br></span>"
+            ],
+            "guid": "r,B%9QbZmt",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is an arguement",
+                "An arguement consists of a series of statements (called premises) and a conclusion. Premises are listed one after the other and seperated from the conclusion by a horizontal or vertical line, as appropriate.<br><br>P<sub>1</sub>, P<sub>2</sub>, ..., P<sub>n</sub> | C<br><br>An arguement is valid if all premises are true, and the conclusion is NOT false. If any row in the truth table has true premises but a false conclusion the arguement is not valid"
+            ],
+            "guid": "j&*x{P?O$F",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In Boolean Algebra what does 1 + 1 =",
+                "1"
+            ],
+            "guid": "9I|DL",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                " What is the order of operations in Boolean Algebra",
+                "Complement > Multiplication > Addition<br>Unless indicated otherwise by brackets"
+            ],
+            "guid": "HbgRF",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In Boolean Algebra what is the equivalent of AND, OR and NOT",
+                "Multiplication, Addition and Complement"
+            ],
+            "guid": "yct[1",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In Boolean Algebra, what is a product",
+                "An expression combined using only multipliers (and complements are allowed)"
+            ],
+            "guid": "]-njA",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In Boolean Algebra what is a sum of products",
+                "Products combined by addition only"
+            ],
+            "guid": "cNJ:3",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What's the quickest way to know if a product = 1",
+                "If all the inputs (accounting for complements) = 1<br><br>1,1,1 = 1<br>0',1,0' = 1"
+            ],
+            "guid": "&a372",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the easiest way to know if a sum of products = 1",
+                "The answer will always = 1 unless ALL inputs are 0<br><br>0,0,1 = 1<br>1,0,1 = 1<br>0,0,0 = 0"
+            ],
+            "guid": "6G^FE",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Which logic gate is considered the universal gate ",
+                "NAND gate"
+            ],
+            "guid": "93lTP",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a predicate",
+                "A statement with one or more variables (with no assigned value for those variables)"
+            ],
+            "guid": "q@DJV",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When does a predicate become a proposition",
+                "When the variables in the predicate are given values"
+            ],
+            "guid": "8ha2L",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What format would you write a proposition in",
+                "P: \"proposition here\""
+            ],
+            "guid": "tX|rI",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What format would you write a predicate in",
+                "P(x): \"predicate here including variable x\""
+            ],
+            "guid": "!~DvF",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What the common notations to represent sets",
+                "∈ = membership (is a member of)<br>∉ = non-membership (is NOT a member of)<br>∅ = empty set"
+            ],
+            "guid": "4*GGP",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a set",
+                "A collection of things, usually (but not necessarily) sharing some common attribute"
+            ],
+            "guid": "o*Yj3",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you represent a set in writing",
+                "X = set of \"...\" = {item1, item2, item3, ...}<br>(Any letter = \"description\" = {items in sets}"
+            ],
+            "guid": "kXb@I",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What notation is used for the 2 most common quantifiers",
+                "∀ = Universal quantifier = for all/every<br>∃ = Existential quantifier = there exists"
+            ],
+            "guid": "Z:WJ5",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the purpose of quantifiers ",
+                "Used to link truth values of predicates to sets"
+            ],
+            "guid": "v1{+O",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Example of the use of a quantifier, predicate and set",
+                "∀ s ∈ S, P(s)<br>For every element (s) of a set (S), the predicate (P) is true"
+            ],
+            "guid": "AUwtG",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When negating the quantifier ∀ you just need a contradicting statement that begins with..",
+                "∃<br><br>∀ x ∈ R, P(x)<br>∃ x ∈ R, ~P(x)"
+            ],
+            "guid": "K?ZCQ",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When negating the quantifier ∃ you just need a contradicting statement that begins with..",
+                "∀<br><br>∃ x ∈ S, B(x)<br>∀ x ∈ S, ~B(x)"
+            ],
+            "guid": "jiy.",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When negating a statement with a quantifier, and the predicate is already negated (e.g. ~P(x)) the predicate becomes...",
+                "No longer negated<br><br>~(~P(x)) = P(x)"
+            ],
+            "guid": ".U4yN",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 4 ways to specify the elements of a set when dealing with numbers",
+                "{1, 2, 3, 4} = 1 to 4<br>{1, 2, 3, 4, ...} = 1 to infinity<br>{1, 2, 3, 4, ..., 30} = 1 to 30<br>{x | x = natural number <5} = 1, 2, 3, 4"
+            ],
+            "guid": "8RTqF",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The order of the elements in a set is unimportant, True or False",
+                "True"
+            ],
+            "guid": "mYy8L",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Repetition of elements in a set is unimportant, True or False",
+                "True"
+            ],
+            "guid": "[^EAD",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the letter used to denote the Universal set",
+                "U"
+            ],
+            "guid": "(><N9",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a subset",
+                "A set is a subset of another set if every element of that set is also an element of the other set<br><br>A = {1, 2, 3, 4, 5}<br>B = {1, 3, 5}<br><br>B is a subset of A"
+            ],
+            "guid": "^a#,5",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What character is used to denote the word subset",
+                "⊆"
+            ],
+            "guid": "A=m@8",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the character used to denote the set of elements within 2 sets",
+                "∩ (Intersection)<br><br>A ∩ B = {x | (x ∈ A) ∧ (x ∈ B)}"
+            ],
+            "guid": "&gtOG",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is it called when 2 sets contain no common elements<br><br>e.g. A ∩ B = ∅",
+                "A and B are said to be disjoint"
+            ],
+            "guid": "@if}1",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the character used to denote the set of elements in either of 2 sets",
+                "∪ (Union)<br><br>A ∪ B = {x | (x ∈ A) ∨ (x ∈ B)}"
+            ],
+            "guid": "@7_`J",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What character is used to denote a set that is not apart of a set",
+                "' (Complement)<br><br>A' = {x | (x ∈ U) ∧ (x ∉ A)}"
+            ],
+            "guid": "z31tJ",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When shading in diagrams using set theory notation, when do you exclusively shade what matches all notations and when can you shade everything that matches either notations",
+                "∩ (interstion or AND)<br>Shade only what matches both notations either side of the ∩<br><br>∪ (union or OR)<br>Shade anything that matches notations either side of the ∪<br><br><img src=\"img1750857463079798093.jpg\">"
+            ],
+            "guid": "g{#QS",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "If n(A) denotes the number of elements in set A, what is the addition principle formula for n(A ∪ B)",
+                "n(A ∪ B) = n(A) + n(B) - n(A ∩ B)"
+            ],
+            "guid": "0?xJ1",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the power set of a set",
+                "A set containing all possible subsets of the set<br><br>The set {M, W, F} has all the possible subsets {}, {M}, {W}, {F}, {M, W}, {M, F}, {W, F}, {M, W, F} therefor the power set is {{}, {M}, {W}, {F}, {M, W}, {M, F}, {W, F}, {M, W, F}}"
+            ],
+            "guid": "<XCg2",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you determine how many subsets a power set of a set should contain",
+                "If a set has n elements, then it should have 2^<span style=\"font-size:x-small\">n</span> subsets"
+            ],
+            "guid": "(XK>2",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the Cartesian product of sets and how is it denoted",
+                "The set of ordered pairs where the first member of the pair comes from the left side of the (x) and the second comes from the right<br><br>The sets A and B have a Cartesian product denoted as (A x B)<br><br>A x B = {(x, y) | x ∈ A and y ∈ B}<br><br>Let A = {Mon, Tue, Wed}<br>and B = {am, pm}<br>then <br>A x B = {{Mon, am}, {Mon, pm}, {Tue, am}, ..., {Wed, pm}}"
+            ],
+            "guid": ".|>J2",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How can you determine how many sets will be inside a Cartesian product",
+                "n(A) x n(B)<br><br>A = {1, 2, 3}<br>B = {1, 2}<br><br>3 x 2 = 6"
+            ],
+            "guid": "a6J^2",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a relation in mathematics",
+                "A subset of a Cartesian product set"
+            ],
+            "guid": "%}W?E",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 4 ways of representing a relation",
+                "Order pairs<br>Arrow diagram<br>Graph<br>Chart"
+            ],
+            "guid": "VvUu8",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the generally best way to represent a relation in mathematics regarding computer science",
+                "Ordered pairs<br><br>Can easily become ordered triples and so on (n-tuple)"
+            ],
+            "guid": "Ro.n",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How would you notate a relation using an infix instead of standard set notation",
+                "a R b   instead of   (a,b) ∈ R<br>a ℟ b   instead of   (a,b) ∉ R"
+            ],
+            "guid": "~W(%T",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the best way to represent 2 relations (one after the other) that will become a composition",
+                "Arrow diagrams"
+            ],
+            "guid": "!X$q5",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the notation for composition",
+                "∘<br><br>The composition of R and S is a set of ordered pairs: S∘R = {...}<br><br>Notice R and S have flipped "
+            ],
+            "guid": "F_G$7",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What makes a composition between the first and last set possible",
+                "When an arrow from the first set element points to an element in the second set, and that same element has an arrow pointing to an element in the last set<br><br><img src=\"img8167310610122812820.jpg\">"
+            ],
+            "guid": "((:y9",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the notation for an inverse relation",
+                "If R = A x B = a R b<br>The inverse = b R<span style=\"font-size:x-small\">-1</span> a<br><br>Basically a reverse of an arrow diagram<br>Or reversing order of pairs (a,b) > (b,a)"
+            ],
+            "guid": "}0,rE",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When inversing a composition, in what order should the relations be",
+                "R and S = S∘R<br><br>Inverse of that composition is..<br><br>(S∘R)<span style=\"font-size:x-small\">-1</span> = R<span style=\"font-size:x-small\">-1</span>∘S<span style=\"font-size:x-small\">-1</span>"
+            ],
+            "guid": "-ddW5",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is physical topology",
+                "The organisation of the devices and media connecting them"
+            ],
+            "guid": "qbyu|DX!=X",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": [
+                "marked"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is logical topology",
+                "The method by which signals are propagated on a network"
+            ],
+            "guid": "u$@ta;!;M!",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": [
+                "marked"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Describe a bus topology",
+                "Computers are connected in a linear fashion, generally done with coaxial cable. Cheap to implement, but a single break in the cable could disable the entire network."
+            ],
+            "guid": "x8QRnO8jM}",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": [
+                "marked"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Example of a relation between a single set (A x A)",
+                "Let G be the relation \"is greater than\" defined on A = {1, 2, 3, 4}<br><br>For example, 4 G 1 means \"4 is greater than 1\""
+            ],
+            "guid": "ACd4nxMM(M",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the two ways of displaying a subset of a single set's relation",
+                "G = is greater than<br>A = {1, 2, 3}<br><br>Infix notation:<br>2 G 1, 3 G 1, 3 G 2<br><br>Ordered Pairs notation:<br>G = {(2,1), (3,1), (3,2)}"
+            ],
+            "guid": "EkD_4RpQSg",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In a graph depicting a relation, which axis is always used for the first element of an ordered pair",
+                "Horizontal"
+            ],
+            "guid": "v)_(_dcOV9",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In a graph depicting a relation, which axis is always used for the second element of an ordered pair",
+                "Vertical"
+            ],
+            "guid": "xhVaBn,3SR",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Let Y be the relation \"is the same age\" defined on the set S = {Anne, Bob, Cathy, Dave}, suppose the respective ages are 18, 20, 19, 18, list all the ordered pairs of this relation.",
+                "Y = {(Anne, Anne), (Bob, Bob), (Cathy, Cathy), (Dave, Dave), <b>(Anne, Dave), (Dave, Anne)</b>}"
+            ],
+            "guid": "w8kje.e`(Q",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the algebraic and simple English definitions for a relation that is Reflexive",
+                "∀ x&nbsp;∈ S, x R x<br>For all x in S, x is related to x<br><br>Every element is related to itself"
+            ],
+            "guid": "gUw!Q^oWfi",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the algebraic and simple English definitions for a relation that is Symmetric",
+                "∀ x, y&nbsp;∈ S, x R y&nbsp;⭢ y R x<br>For all x,y in S, if x relates to y then y relates to x<br><br>If x is related to y then y is related to x"
+            ],
+            "guid": "ED3?Y<pt(m",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the algebraic and simple English definitions for a relation that is Transitive",
+                "∀ x, y, z ∈ S, (x R y) ∧ (y R z) ⭢ (x R z)<br>For all x,y,z in S, if x relates to y AND y relates to z, then x relates to z<br><br>If x is related to y and y is related to z, then x is related to z"
+            ],
+            "guid": "LgHCynsEFp",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Visual example of Reflexive, Symmetric and Transitive relations",
+                "<img src=\"paste-3f3b07a889ed716aab06eddf087759ebc999a59a.png\">"
+            ],
+            "guid": "MUO8L_Rwt7",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How many properties (Reflexive, Symmetric, Transitive) can a relation have",
+                "It can have none, one, two or all three"
+            ],
+            "guid": "i@3%h?=DcK",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is an equivalence relation",
+                "A relation that is reflexive, symmetric and transative"
+            ],
+            "guid": "fmdQ,Eh]3",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is usually an easy way to tell if a relation is an equivalence relation",
+                "If the relation uses the word \"same\"&nbsp;<br><br>R = \"has the <b>same</b>&nbsp;blood type as\""
+            ],
+            "guid": "C2MBOVd8IZ",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In modular arithmetics, what part of the calculation is the only part we usually care about",
+                "The remainder"
+            ],
+            "guid": "QBo:BES>*z",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do we denote the modulus (modulo) number in a congruent equation",
+                "(mod m)<br><br>m = the number the modulus is"
+            ],
+            "guid": "h_{!#]M&b,",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the syntax for a congruent equation, and its simple English form",
+                "a ≡ b (mod m)<br><br>a is congruent to b modulo m"
+            ],
+            "guid": "Ct_o7T61F7",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How can you confirm a number is congruent to another number<br>(a&nbsp;≡ b (mod m))",
+                "a - b = multple of m<br><br>e.g.<br>20&nbsp;≡ -1 (mod 7)<br>20 - -1 = 21,<br>21 / 3 = 7"
+            ],
+            "guid": "qI|O`>NkxZ",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is \"the least residue\" in terms of congruency",
+                "The smallest non-negative number"
+            ],
+            "guid": "y1ISmu0h!1",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How can you determine the range of the least residue in congruency (what number the least residue could be within)",
+                "modulo m<br>=<br>0 to m-1<br><br>e.g.<br>modulo 7<br>=<br>0 to 6"
+            ],
+            "guid": "zT]?e3t:|j",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the easiest way to find the least residue",
+                "Find the remainder when a is divided by m<br><br>e.g.<br>least residue modulo 7 of 1583<br>1583 / 7 = 226.1428571...<br>re-arrange the equation<br>1583 - (226 x 7) = 1<br>1 is the least residue modulo 7 of 1583<br>"
+            ],
+            "guid": "F$[oek:5<3",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How can solving a product with large numbers in modulo be simplified<br>e.g. 423 x 562 x 841 (mod 7)",
+                "Find the modulus of each number in the equation first and replace them.<br><br>423&nbsp;≡ 3 (mod 7)<br>562&nbsp;≡ 2 (mod 7)<br>841&nbsp;≡ 1 (mod 7)<br>3 x 2 x 1 = <b>6</b><br>423 x 562 x 841 (mod 7) = <b>6</b>"
+            ],
+            "guid": "k9R3-Fr;8Q",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When solving equations looking for the least residue, you can find the least residue before or after the calculation, the answer will be same the same?<br><br>(True or False)",
+                "True"
+            ],
+            "guid": "Px?bqTNR[^",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Solve for x, x + 3&nbsp;≡ 1 (mod 7), using the fail-safe method",
+                "0 + 3 = 3 ❌<br>1 + 3 = 4 ❌<br>2 + 3 = 5 ❌<br>3 + 3 = 6 ❌<br>4 + 3 = 0 ❌<br>5 + 3 = 1 ✅<br>6 + 3 = 2 ❌"
+            ],
+            "guid": "mp<NY7ky64",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the smarter way to solve the equation, x + 3&nbsp;≡ 1 (mod 7), finding x",
+                "- 3 from both sides, however 1 is less than 3<br>therefor, replace 1 with a number congruent to it that is<br><br>1&nbsp;≡ 8<br><br>x + 3 - 3&nbsp;≡ 8 - 3<br>x = 8 - 3<br>x = 5"
+            ],
+            "guid": "D^U)f<=5WF",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the smarter way to solve the equation, 3x ≡ 1 (mod 7), finding x",
+                "/ 3 from both sides, however 1 is not divisible by 3<br>therefor, replace 1 with a number congruent to it that is<br><br>1&nbsp;≡ 8&nbsp;≡ 15<br><br>3x / 3 ≡ 15 / 3<br>1x = 15 / 3<br>x = 5"
+            ],
+            "guid": "o*vb!fMzU:",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When solving congruencies solving for x involving the square/cube of the variable, what method must be used",
+                "Fail-safe method<br><br>There may be one or more solutions, or no solutions.<br>So you must try all possibilities"
+            ],
+            "guid": "jE}YZV]T`F",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What 3 variables need to be provided to generate psuedo-random numbers and what is the formula",
+                "<b>Seed</b> (X<sub>0</sub>)<br><b>A</b> (number to multiply with)<br><b>m</b> (modulo number)<br><br><b>X<sub>n</sub>&nbsp;≡ A X<sub>n-1</sub>&nbsp;(mod m)</b><br><br><i>e.g.&nbsp;<b>X<sub>0</sub></b>&nbsp;= 5,&nbsp;<b>A</b> = 5,&nbsp;<b>m</b> = 19</i><br>X<sub>1</sub>&nbsp;≡ 5 X<sub>0</sub>&nbsp;≡ 5 x 5 ≡ 25&nbsp;≡ <b>6</b> (mod 19)<br>X<sub>2</sub>&nbsp;≡ 5 X<sub>1</sub>&nbsp;≡ 5 x 6 ≡ 30&nbsp;≡ <b>11</b>&nbsp;(mod 19)<br>X<sub>3</sub>&nbsp;≡ 5 X<sub>2</sub>&nbsp;≡ 5 x 11&nbsp;≡ 55&nbsp;≡ <b>17 </b>(mod 19)<br>and so on...<br>= (6, 11, 17, 9, 7, 16, ...)"
+            ],
+            "guid": "e73Svz8NN?",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a useful way of thinking about what a function is",
+                "A process, with an input and an output<br><br><img src=\"paste-e45c98a4496396461417dc6d497ff644c76e5a6b.png\"><br><img src=\"paste-bcf6c0314d79780e380a99cc74bf014cd04b6a4c.png\">"
+            ],
+            "guid": "f7F7E]pu>C",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the notation of a function (in maths)",
+                "name(input) = output<br><br>e.g.<br>sqroot(49) = 7<br>vowelcount(\"emu\") = 2"
+            ],
+            "guid": "i;7gGKM)4!",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How is the notation for defining a functions rule",
+                "name(input type) = rule<br><br>e.g.<br>sqroot(𝓧) =&nbsp;<img src=\"paste-3fdd5633c58c4cb17b65f5086a0646a42403b5da.png\"><br>vowelcount(&lt;string&gt;) = number of vowels in &lt;string&gt;"
+            ],
+            "guid": "kB;.@rx0lq",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "With functions and sets, how many elements can be mapped from A to B",
+                "1<br>Every elemenent in A must be mapped only once to an element in B"
+            ],
+            "guid": "v%Mr?</kdi",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The set that contains all the inputs for a function is called the ______",
+                "domain"
+            ],
+            "guid": "Ox}R@,GGik",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The set that contains all the outputs for a function is called the ______",
+                "codomain"
+            ],
+            "guid": "i.L/^.Qy.1",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The subset of B that contains all the outputs of the functions from A is called the ______",
+                "range"
+            ],
+            "guid": "t&d%Bl^J!U",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the notation when a function is used with sets",
+                "f: A&nbsp;⭢ B, f(x)<br><br>Where x is a member of the set A"
+            ],
+            "guid": "Dqdp!7#wX!",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "If b = f(a) in terms of functions and sets, what is it called",
+                "b = the image of a"
+            ],
+            "guid": "sEH8Iy>WME",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Consider a function called pos that tells us the position of a letter in the alphabet, what would the set function notation and function notation looke like",
+                "pos: {alphabet}&nbsp;⭢&nbsp;<b>ℕ<br></b>pos(letter) = position of the letter in the alphabet"
+            ],
+            "guid": "g;#FF(g*%x",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the domain, codomain and range of this set function<br><br>pos: {alphabet}&nbsp;⭢&nbsp;<b>ℕ<br></b>pos(letter) = position of the letter in the alphabet",
+                "Domain: {alphabet}<br>Codomain:&nbsp;<b>ℕ</b><br>Range: {1, 2, 3, ..., 25, 26}"
+            ],
+            "guid": "F;vkUp(zM`",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What would be the output of this set function be<br><br>f:&nbsp;<b>ℝ</b> ⭢&nbsp;<b>ℝ</b>, f(x) = x(x + 1)<br><br>if x = 3",
+                "f(3) = 3 * (3 + 1)<br>f(3) = 3 * 4<br><b>f(3) = 12</b>"
+            ],
+            "guid": "OKW5F$D0aq",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In terms of relations, what is a function",
+                "A special kind of relation (the function defines the relation)<br><br>Therefor we can use relational diagrams to express functions in sets<br>i.e. arrow diagram, graph, etc."
+            ],
+            "guid": "hZF=y@~v_h",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the other possible names for \"onto\" and \"one-to-one\" functions",
+                "Onto: <b>Surjective</b><br>One-to-one: <b>Injective</b>"
+            ],
+            "guid": "rM!(ia;#qi",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is it called when the range and the codomain are equal",
+                "Onto"
+            ],
+            "guid": "PO(thS4,9u",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is it called when the elements in set B have only zero or one element from A mapped to them",
+                "One-to-one"
+            ],
+            "guid": "A^NX2Bf8T3",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the notation of the output after going through 3 functions (f, g, h)",
+                "h(g(f(x)))"
+            ],
+            "guid": "yZ*r(DT@VW",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is an inverse function",
+                "A function that reverses the operation of another function<br><br>f(x) = 2x + 5<br>f<sup>-1</sup>(x) = (x - 5) / 2"
+            ],
+            "guid": "q3WCcx;x{R",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a general method for finding the inverse of a mathematic function",
+                "<b>Turn inside out and swap labels</b><br><br>f(x) = x + 2<br><br>Assign y the functions rule &amp; solve for x<br><br>y = x + 2<br>y - 2 = x<br><br>Swap labels for x and y and the inverse has been found<br><br>f<sup>-1</sup>(x) = x - 2<br>"
+            ],
+            "guid": "j%Jlfu*+^g",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a way of checking whether the inverse of the a function is correct",
+                "Use composition formulas<br><br>f<sup>-1</sup>(f(x)) = x"
+            ],
+            "guid": "pnReQI(kG`",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a composition function",
+                "Functions within functions<br><br>h(g(f(x)))"
+            ],
+            "guid": "h](%mDri.a",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Where should you start when solving composition formulas",
+                "The middle<br><br>h(g(<b>f(x)</b>))"
+            ],
+            "guid": "pIF22ETv_",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Say \"c(s) = replace each 0 with a 1 and each 1 with a 0\" and the set is all bit strings, what is the inverse function of c",
+                "c is its own inverse"
+            ],
+            "guid": "M>KJJAi2Zj",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Which functions can have an inverse function",
+                "Only functions that are \"onto\" and \"one-to-one\""
+            ],
+            "guid": "o-wznmY#sG",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does ASCII stand for",
+                "American Standard Code for Information Interchange"
+            ],
+            "guid": "I/FuD,lk=F",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is ASCII",
+                "A seven-bit code that allows digital devices to communicate with each other<br><br><img src=\"paste-0e7aef13231b995e45d4a86469f28502e595267d.png\">"
+            ],
+            "guid": "CJ*iarugSv",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When using the ASCII lookup table, do you read the column or row first",
+                "Column<br><br><img src=\"paste-cf29a1d358d168dee348e26711ac6ff8a2ead5df.png\">"
+            ],
+            "guid": "v@z#w>r,q8",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        }
+    ]
+}

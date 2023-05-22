@@ -1,0 +1,1547 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "b8569543-f8d2-11ed-89e3-d85ed324997c",
+    "deck_config_uuid": "7e652370-1241-11ed-82da-d85ed324997c",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "7e652370-1241-11ed-82da-d85ed324997c",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 0,
+                "perDay": 30
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 300
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "img2365008871454835254.jpg",
+        "img560496615898920007.jpg",
+        "img6053552247135553292.jpg",
+        "img7046727281205109334.jpg",
+        "img7718539802800996071.jpg"
+    ],
+    "name": "CSG1105 Applied Communications",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic-49a6a",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Among many other things, what is a web browser mainly?",
+                "A <b>HTTP Client</b>"
+            ],
+            "guid": "S3kI2",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does a HTTP client communicate with?",
+                "A <b>HTTP Server</b>"
+            ],
+            "guid": "3X$lG",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define a server",
+                "A server is not hardware, it is a process running at an advertised location providing a service"
+            ],
+            "guid": "UG]*7",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does HTTP stand for",
+                "HyperText Transfer Protocol"
+            ],
+            "guid": "sQJ&U",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does SMTP stand for",
+                "Simple Mail Transfer Protocol"
+            ],
+            "guid": "^`/C5",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does DNS stand for",
+                "Domain Name System"
+            ],
+            "guid": "Y(u#2",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does LDAP stand for",
+                "Lightweight Directory Access Protocol"
+            ],
+            "guid": "o&m:Q",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does SMB stand for",
+                "Server Message Block"
+            ],
+            "guid": "y[6lT",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does IP stand for",
+                "Internet Protocol"
+            ],
+            "guid": ",]97O",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does TCP stand for",
+                "Transmission Control Protocol"
+            ],
+            "guid": "s0<SF",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does UDP stand for",
+                "User Datagram Protocol"
+            ],
+            "guid": "Es[#A",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Clients and servers use an accepted ? to communicate",
+                "Protocol"
+            ],
+            "guid": "P{-U2",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a protocol",
+                "An accepted method of exchanging messages between the client and the server"
+            ],
+            "guid": "<~8QV",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What 3 things does a HTTP request consist of",
+                "A Method (GET)<br>A Path (/)<br>A Protocol Version (HTTP/1.1)<br><br>GET / HTTP/1.1"
+            ],
+            "guid": "lUxQM",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What style if protocol is HTTP",
+                "A request/response style protocol"
+            ],
+            "guid": ".?+LO",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does URL stand for",
+                "Uniform Resource Locator"
+            ],
+            "guid": "butiJ",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What 3 elements does a URL consist of",
+                "The Scheme (https://)<br>The Authority (example.com)<br>The Path (/example)<br><br>https://example.com/example"
+            ],
+            "guid": "s=97H",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "4 examples of the protocols used in URLs include",
+                "http<br>ftp<br>mailto<br>file"
+            ],
+            "guid": "(]*K6",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What 3 elements can the Authority element of a URL consist of",
+                "User info (username@)<br>The host (example.com)<br>The port (:8080)<br><br>username@example.com:8080"
+            ],
+            "guid": ":6!b8",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does FQDN stand for",
+                "Fully-Qualified Domain Name"
+            ],
+            "guid": "LRz(6",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What 2 elements does a FQDN consist of",
+                "The host name (www)<br>The domain name (.ecu.edu.au)<br><br>www.ecu.edu.au"
+            ],
+            "guid": "h(J(P",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How many bits is an IPv4 address",
+                "32-bit"
+            ],
+            "guid": "%E1MT",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What 2 elements does an IP address consist of",
+                "The network portion (192.168.1.)<br>The host portion (205)<br><br>192.168.1.205"
+            ],
+            "guid": "T!1#9",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "IP addresses are represented in what number format",
+                "Dotted decimal"
+            ],
+            "guid": "kh-`J",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "A 32-bit IP is divided in how many bytes",
+                "Four 8-bit bytes<br><br>24bits (3bytes) for the network portion<br>8bits (1byte) for the host portion"
+            ],
+            "guid": "x;vO6",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the purpose of a subnet mask",
+                "To allow us to isolate the network address by AND'ing then together<br><br>255.255.255.0<br>11111111.11111111.11111111.00000000"
+            ],
+            "guid": "G5V-S",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the purpose of the wildcard (inversed subnet mask)",
+                "To allow us to isolate and figure out the host ID of an IP address by AND'ing then together<br><br>000.000.000.255<br>00000000.000000000.00000000.11111111"
+            ],
+            "guid": "[W*PD",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Modern Networks use what type of <b>switching</b> to communicate",
+                "Packet Switching"
+            ],
+            "guid": "E^{1I",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What 2 addresses must a packet include",
+                "A Destination address and a Source address"
+            ],
+            "guid": "C3XIK",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the TCP/IP stack",
+                "Application layer (HTTP/SMTP/DNS)<br>Transport layer (TCP/UDP)<br>Internet Layer (IP)<br>Network Access Layer (Ethernet/WiFi)<br><br><img src=\"img7046727281205109334.jpg\">"
+            ],
+            "guid": "7M=lO",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do the layers in a TCP/IP stack communicate",
+                "Each layer provides services to the layer above and uses the services of the layer below<br><br>That is the physical path taken, however logically each layer communicates with the peer layer at the target system<br><br><img src=\"img6053552247135553292.jpg\">"
+            ],
+            "guid": "I(9-J",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define Encapsulation",
+                "Each layer in the TCP/IP stack adds a header to the message"
+            ],
+            "guid": "`#=+O",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define de-encapsulation",
+                "Each layer of the TCP/IP stack interprets the headers and replaces/removes them if necessary before passing it onto the next layer"
+            ],
+            "guid": "H-h,K",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Encapsulation example",
+                "<img src=\"img560496615898920007.jpg\">"
+            ],
+            "guid": "u~}&6",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does PDU stand for",
+                "Protocol Data Units"
+            ],
+            "guid": "+#_7J",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the name of each PDU in a TCP/IP stack",
+                "Application layer (Message)<br>Transport layer (Segment)<br>Internet layer (Packet)<br>Network Access Layer (Frame)<br><br>Medium (Bits)<br><br><img src=\"img2365008871454835254.jpg\">"
+            ],
+            "guid": "@tB?T",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How many bits does a MAC address have",
+                "48 bits (6 bytes)"
+            ],
+            "guid": "}:WRQ",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What two sections does a MAC address contain",
+                "The OUI (Organisation Unique Identifier) - 24 bits<br>A unique sequence number from the OUI owner - 24 bits"
+            ],
+            "guid": "-V8e7",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How are MAC addresses expressed",
+                "As six hexadecimal numbers seperated by colons<br><br>e.g. 00:0A:12:43:99:DB"
+            ],
+            "guid": "lI%UQ",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What three possibilities could happen when a NIC receives a frame and compares the destination MAC with its own",
+                "1. If the MAC does not match, the frame is discarded<br>2. If the MAC matches, the payload is passed up to the internetwork layer for processing<br>3. If the MAC is a broadcast address, the payload is passed up to the internetwork layer for processing"
+            ],
+            "guid": "H0p^O",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a the source MAC address for an all-stations broadcast",
+                "FF:FF:FF:FF:FF:FF"
+            ],
+            "guid": "=z0,1",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "WiFi and non-switched Ethernet receive which transmissions",
+                "All transmissions"
+            ],
+            "guid": "zI3aL",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Switched Ethernet receives which transmissions",
+                "Its own and broadcast transmissions"
+            ],
+            "guid": "Dg+01",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does MAC stand for",
+                "Medium Access Control"
+            ],
+            "guid": "#!o`M",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does NIC stand for",
+                "Network Interface Controller"
+            ],
+            "guid": "*;|gA",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does FCS stand for",
+                "Frame Check Sequence"
+            ],
+            "guid": "ld?6A",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does CSMA/CD stand for",
+                "Carrier Sense, Multiple Access / Collision Detection"
+            ],
+            "guid": "1`%vU",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does ARP stand for",
+                "Address Resolution Protocol"
+            ],
+            "guid": "w6pa8",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does DHCP stand for",
+                "Dynamic Host Configuration Protocol"
+            ],
+            "guid": "tQWST",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does MTU stand for",
+                "Maximum Transmission Unit"
+            ],
+            "guid": "p3QEE",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does ICMP stand for",
+                "Internet Control Message Protocol"
+            ],
+            "guid": "6;jVH",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does VLSM stand for",
+                "Variable Length Subnet Masks"
+            ],
+            "guid": "GupwD",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What VSLM and subnet mask would be for 10.0.0.1",
+                "/8<br>255.0.0.0"
+            ],
+            "guid": "&aQOR",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What VSLM and subnet mask would be for 172.16.0.1",
+                "/16<br>255.255.0.0"
+            ],
+            "guid": "TTtF",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What VSLM and subnet mask would be for 192.168.0.1",
+                "/24<br>255.255.255.0"
+            ],
+            "guid": "$>e^8",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the subnet mask if a /25 in dotted decimal and binary",
+                "255.255.255.128<br>11111111.11111111.1111111.10000000"
+            ],
+            "guid": "1Mn|N",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Do broadcast messages pass through Routers/3 Layer Switches",
+                "No"
+            ],
+            "guid": "s{(3Q",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Which is faster? Switching frames or Routing packets",
+                "Switching frames"
+            ],
+            "guid": "m|T&S",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does DLNA stand for ",
+                "Digital Living Network Alliance"
+            ],
+            "guid": "h=QhN",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does EGP stand for",
+                "Exterior Gateway Protocols"
+            ],
+            "guid": "oUzMI",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does IGP stand for ",
+                "Interior Gateway Protocols"
+            ],
+            "guid": "?$c42",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What 2 categories do IGPs fall into",
+                "Distance Vector Protocols<br>Link State Protocols"
+            ],
+            "guid": "-%$cE",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Which protocol segments messages, TCP or UDP",
+                "TCP"
+            ],
+            "guid": "SZt}7",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Application Multiplexing",
+                "Ports (essentially)"
+            ],
+            "guid": "$Eai6",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the range for well-known ports",
+                "0 - 1023"
+            ],
+            "guid": "kTza2",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the range for ephemeral ports",
+                "1024 - 65535"
+            ],
+            "guid": "4E(pA",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the purpose of an address and port",
+                "Allows for a unique IP address representing an application"
+            ],
+            "guid": "{K1~8",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the most common TCP/IP API called and what does it contain needed to communicate",
+                "Socket<br><br>Source and destination IP address,<br>Source and destination port"
+            ],
+            "guid": "T`z7U",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Sockets use a _____ _______ to access network services as the connection is treated as a _____ _______",
+                "file handle<br>byte stream"
+            ],
+            "guid": "$k8JE",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does a socket address consist of",
+                "A protocol, IP address, port.<br><br>e.g. tcp,192.168.0.50,80"
+            ],
+            "guid": "o%-j7",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a socket connection represented as",
+                "An association which has the IP address and port of both the client and server.<br><br>e.g. tcp,192.168.0.50,80,172.16.100.22,50111"
+            ],
+            "guid": "s0]aR",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Which 2 main protocols does the Transport Layer provide ",
+                "TCP<br>UDP"
+            ],
+            "guid": "k~sZN",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is UDPs in a nutshell",
+                "UDP is connectionless (does not provide reliability, flow control or error recovery)<br>UDP has less overhead for transmission than TCP and is used in some streaming applications for this reason<br>UDP is also used for services like DNS, TFTP, RPC & LDAP which require small amounts of data"
+            ],
+            "guid": "8LYjP",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How many packets does a UDP transmission send",
+                "A single packet"
+            ],
+            "guid": "iUGdK",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the maximum payload size of a UDP Datagram",
+                "516 bytes"
+            ],
+            "guid": "el]C4",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is TCP in a nutshell",
+                "TCP is a connection-orientated protocol which provides a full-duplex byte stream between processes<br>TCP segments the byte stream to be passed to the Internetwork layer (done with knowledge of the Internetwork layer MTU)<br>TCP provides reliability using sequence numbers and acknowledgements (ACK)<br>TCP provides flow control via the receiver ACK mechanism (sliding window)"
+            ],
+            "guid": "2B;07",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What type of handshake does a TCP connection use",
+                "Three Way Handshake"
+            ],
+            "guid": "2iua5",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In a TCP three way handshake, what is the first requirement",
+                "A server must have a socket listening for incoming connections called a Passive Open"
+            ],
+            "guid": "+Xo#M",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does a TCP client send to a servers Passive Open socket",
+                "An Active Open call"
+            ],
+            "guid": "$Ku>3",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What steps does an Active Open call consist of",
+                "The client sends a SYN (synchronise) message with a random SEQ (sequence) number (e.g. 2044)<br><br>If the server is not accepting requests it can reply with a NAK (negative acknowledgement)<br>If the server is accepting requests it replies with a SYN ACK (synchronise acknowledgement) with its own random SEQ number (e.g. 42000) and the next expected SEQ (2045)<br><br>The client completes the connection with an ACK containing the next SEQ (2045) and ACK containing the next SEQ from the server (42001)"
+            ],
+            "guid": "w*G?R",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What type of segment is sent to close a TCP connection ",
+                "FIN segment"
+            ],
+            "guid": "(ruwI",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does NAT stand for and what are the 2 common (but outdated) methods of NAT",
+                "Network Address Translation<br><br>SNAT<br>DNAT"
+            ],
+            "guid": "yWJ:L",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does SNAT stand for and how did it work",
+                "Static Network Address Translation<br><br>Translated internal private IPs to manually assigned public IPs for outgoing transmissions, and vica versa for incoming transmissions"
+            ],
+            "guid": "2B0T1",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does PAT stand for",
+                "Port Address Translation"
+            ],
+            "guid": ":~F^L",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the purpose of NAT in a nutshell",
+                "NAT re-writes the source IP address (and port in PAT) of outgoing transmissions to an external IP and saves the combination of it and the internal IP (and port in PAT) to a NAT table, and vica versa for incoming transmissions using the NAT to translate back to the original address (and port in PAT)"
+            ],
+            "guid": "*;1;1",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the difference between NAT and PAT",
+                "PAT does the exact same thing as NAT, except it also re-writes the port on the external address allowing for 2^<span style=\"font-size:x-small\">16</span> (65354) unique connections on a single external IP (usually 1 external IP available only)"
+            ],
+            "guid": "V8EnI",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In short, what is a VLAN",
+                "Virtual LAN, provides virtual broadcast domains"
+            ],
+            "guid": "YgRxI",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In short, what is DHCP",
+                "Automated TCP/IP configuration in hosts "
+            ],
+            "guid": "Q4k47",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is another name for a VLAN tag",
+                "802.1q tag"
+            ],
+            "guid": "tkMh8",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How many bits are used in a 802.1q tag to identify the VLAN",
+                "12 bit field"
+            ],
+            "guid": "bjj`6",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How many values can fit in a 802.1q tag VLAN identifier field ",
+                "1 to 4096"
+            ],
+            "guid": "W)9&O",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the two types of configurations for VLAN access",
+                "Access Link<br>Trunk Link"
+            ],
+            "guid": "uI0$D",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the purpose of an Access Link",
+                "Used when a device only supports the standard Ethernet frame (most NICs)<br>Only supports a single VLAN assignment"
+            ],
+            "guid": "d6!|I",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the purpose of a Trunk Link",
+                "Usually connect two switches or a switch to a VLAN capable router<br>Carry a Logical connection for each VLAN carried over a single Physical connection<br>Support multiple VLANs<br>802.1q tags allow a receiving switch to select the destination port on both the VLAN ID and MAC address (in its CAM table)"
+            ],
+            "guid": "J$*t5",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Example of VLAN network",
+                "<img src=\"img7718539802800996071.jpg\">"
+            ],
+            "guid": "O]4oN",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the advantages of VLANs",
+                "- Reduce size of broadcast domains<br>- Per port configuration permits higher security, users of each VLAN can't see broadcast traffic from other VLANs<br>- Location independence, devices don't have to be connected to the same switch to be a member of a subnet<br>- Users can be grouped by job category or security clearance rather than physical location<br>- Some switches can assign a higher priority to a specific VLAN"
+            ],
+            "guid": "_]AgI",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a \"Router on a Stick\"",
+                "A router that can understand 802.1q tagging with a trunk access connection between itself and a core switch, with multiple VLANs"
+            ],
+            "guid": ">4a01",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a better alternative to the \"Router on a Stick\" method",
+                "A Layer 3 Switch used as the core switch"
+            ],
+            "guid": "7LEdJ",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does SVI stand for",
+                "Switched Virtual Interface"
+            ],
+            "guid": "[Ew=U",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Why is a router still needed",
+                "- Switches only operate within a LAN<br>- Used for protocol conversion, access control, NAT and WAN links"
+            ],
+            "guid": "dZ/z",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What 3 parameters must be set on a host device in order to have TCP/IP connections",
+                "IP Address<br>Subnet Mask<br>Default Gateway"
+            ],
+            "guid": "R/A>E",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the process of a device acquiring an IP address with DHCP when it is turned on/connected",
+                "Device runs a DHCP client and requests an IP address and other config data<br>Each IP subnet requires access to a DHCP server that will assign and track allocated IP addresses "
+            ],
+            "guid": "0&*i9",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What happens if a DHCP server is unavailable",
+                "A device will self-assign an IP address using APIPA"
+            ],
+            "guid": "j3xd4",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 3 methods of DHCP IP address allocation",
+                "Dynamic - allocates an IP lease, if lease expires without being renewed it is returned to the pool<br><br>Automatic - allocates an IP address from the pool but will remember which client requested the IP and try reallocate it when possible<br><br>Manual (Reservations) - allocates an IP address based on the clients MAC address from settings created by the server administrator"
+            ],
+            "guid": "rx/MF",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What protocol (TCP/UDP) does a DHCP protocol use for its client and server and on which ports",
+                "UDP<br><br>Client = 68<br>Server = 67"
+            ],
+            "guid": "{Y9cN",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the DORA connection method",
+                "Discover - DHCP client sends out a broadcast message asking for an IP address or requesting one it had before<br><br>Offer - DHCP server responds using the clients MAC address with an IP address, subnet mask, lease duration and IP address of itself <br><br>Request - DHCP client responds to a single server and includes the servers IP address, broadcasts a reply to other servers denying their offer if needed<br><br>Acknowledge - DHCP server replies with a DHCPACK message, as well as lease duration and other configuration data requested"
+            ],
+            "guid": "9Da_F",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "During the acknowledgement phase of a DCHP communication what are some things, in addition to the IP address, that the server can provide",
+                "DHCP server identifier<br>IP address lease time<br>Subnet mask<br>Router address (Default Gateway)<br>DNS server address<br>A default domain name<br>A client identifier (MAC address)"
+            ],
+            "guid": "T!s;B",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does APIPA stand for",
+                "Automatic Private IP Addressing"
+            ],
+            "guid": "bo!&3",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What IP address range is used for APIPA",
+                "169.254.0.0/16"
+            ],
+            "guid": "=((!U",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does DNAT stand for and how did it work",
+                "Dynamic Network Address Translation<br><br>Translated internal private IPs to an available external public IP from a pool of available IPs for outgoing transmissions, and vica versa for incoming transmissions"
+            ],
+            "guid": "BehqF",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is star topology",
+                "Has a single link from each computer/node to a central computer or node.<br>It requires more cable then bus network but results in a more reliable network as any one link failure will not effect the other nodes, however it is vulnerable if the central node becomes unavailable"
+            ],
+            "guid": "J22N2",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a ring topology",
+                "Does not contain a central node, instead, each node sends a message to a neighbour who, if necessary, will forward it onto a non-adjecent node that is the target node. It does not suffer from the loss of a central node as most ring networks can send a message the longer way around. There is an overhead however requiring each node to be able to forward messages and is slower than relaying through a central node."
+            ],
+            "guid": "6o~AI",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a mesh topology",
+                "Every node is connected to every other node. Nodes can still communicate easily with a single link failure as they only require a single intermediate node. They are only used when there is a high redundancy requirement for mission critical operations and are often not full mesh networks"
+            ],
+            "guid": "{([OT",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the formula to determine how many connections are required in a full mesh topology",
+                "n = devices<br><br>n * (n-1 / 2)<br><br>5 * (5-1 / 2) = 5 * (4 / 2) = 5 * 2 = 10<br>10 * (10-1 / 2) = 10 * (9 / 2) = 10 * 4.5 = 45"
+            ],
+            "guid": "[vP6E",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a point to point topology ",
+                "A single link between 2 nodes or networks"
+            ],
+            "guid": "Zt,$",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a hybrid topology",
+                "A hybrid of various other topologies<br><br>e.g. two star networks connected with a point to point connection between the central nodes creating a star if star network (a hierarchical star)"
+            ],
+            "guid": "l#@|T",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the difference between logical topology and and physical topology",
+                "Logical topology is a description of how a signal propegates on a network medium as opposed to the physical layout if the network."
+            ],
+            "guid": "Tm)J8",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the physical description of the now common switched topology",
+                "Most switched networks are hierarchical star networks, with groups of stars connected using either routers or layer 3 switches"
+            ],
+            "guid": "ObW#I",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the purpose of a NIC when transmitting over a medium",
+                "The NIC will convert a frame into a bit stream suitable for transmission on a specific medium"
+            ],
+            "guid": "z7q_F",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What criteria will selecting a physical medium depend on",
+                "The intended use of the network"
+            ],
+            "guid": "8PbYE",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What properties of a physical medium can be considered when selecting a medium for an intended purpose ",
+                "Transmission speed or bandwidth<br>Effective distance<br>Susceptibility to interference<br>Security<br>Installation restrictions<br>Cost"
+            ],
+            "guid": "!|Hj",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the transmissions speed or bandwidth measured in on physical mediums",
+                "bps (bits per second)<br><br>NOT Bps (bytes per second)<br><br>e.g. Kbps, Mbps, Gbps"
+            ],
+            "guid": "~BZwD",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the purpose of a preample when transmitting",
+                "To signal to the receiver that a frame is about to begin"
+            ],
+            "guid": "eS1@C",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the properties of copper as a physical medium",
+                "Common conductor of electricity, used in 10base5 (thick coaxial), various versions of copper cabling have been used overtime, notably Ethernet."
+            ],
+            "guid": "n4Fj2",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does UTP stand for",
+                "Unshielded Twister Pair"
+            ],
+            "guid": "tCIhC",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the range of transmission speeds for UTP cables",
+                "10Mbps - 40Gbps<br><br>(Standards for higher speeds but uncommon)"
+            ],
+            "guid": "cUp+Q",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What what is the maximum distance for UTP, thin and thick coaxial",
+                "UTP = 100m<br>Thin = 185m<br>Thick = 500m"
+            ],
+            "guid": "oFYQ",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Generally, the faster the speed of transmission, the ______ the length of transmission possible",
+                "Shorter "
+            ],
+            "guid": "g8t?J",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Is UTP cabling susceptible to interference",
+                "Yes, it is susceptible to EMI (electromagnetic interference)"
+            ],
+            "guid": "<-U$3",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Is UTP susceptible to wire tapping",
+                "Yes, it is relatively easy to tap into copper cable either directly or by using an aerial next to the cable and to sense the variations in the electromagnetic field"
+            ],
+            "guid": "QFu7E",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What restrictions are there to consider for UTP cables",
+                "Very few but most notably is anything to do with interference (any strong source of electrical power)"
+            ],
+            "guid": "}V=nU",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Is UTP cheap",
+                "Compared to fibre optic, it is far cheaper and thus still common"
+            ],
+            "guid": "ej_PV",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How many fiber optic cables are required for a single wired connection",
+                "2, upstream and downstream"
+            ],
+            "guid": "?sA$L",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the range of transmission speed for optical cables",
+                "100Mbps - 100s of Gbps"
+            ],
+            "guid": ",$jFV",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the maximum distance a optical cable can support (as of now)",
+                "50km (50,000m)"
+            ],
+            "guid": "Pd2:M",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What characteristics does optical cable have to electromagnetic interference",
+                "It is immune to EMI"
+            ],
+            "guid": "mDjMS",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Is optical cable susceptible to wire tapping",
+                "Yes, but it is very difficult and requires specialised equipment"
+            ],
+            "guid": "$+jKG",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the installation restrictions of optical cable",
+                "It is delicate and can't be bent around tight corners or be handle frequently or roughly"
+            ],
+            "guid": "b`7(9",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Is optical cable cheap",
+                "Compared to UTP it is relatively expensive because of delicate install process and specialised skills involved "
+            ],
+            "guid": "1cS{P",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Structure Cabling ",
+                "The process of linking devices to the nearest wiring closet"
+            ],
+            "guid": "9DkzB",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a wiring closet",
+                "A room, usually one per floor, that houses the local infrastructure (switches etc.). It will contain one or more racks that mount the patch panels and devices. They are usually connected to other wiring closets using optical cable"
+            ],
+            "guid": "W<5qU",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Where do all wiring closets on a site usually lead to",
+                "One building with a major wiring hub connecting all the buildings and will be the interconnect point for external data/internet connection etc."
+            ],
+            "guid": "rm7gF",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        }
+    ]
+}

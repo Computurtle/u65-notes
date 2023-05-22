@@ -1,0 +1,1032 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "da9e90d9-f8d2-11ed-ba3f-d85ed324997c",
+    "deck_config_uuid": "7e652370-1241-11ed-82da-d85ed324997c",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "7e652370-1241-11ed-82da-d85ed324997c",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 0,
+                "perDay": 30
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 300
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "mid": 1629034775149,
+    "name": "CSG1207 Systems and Database Designs",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic-49a6a",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does DBMS stand for",
+                "Database Management System"
+            ],
+            "guid": "6$:#E",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the purpose of a DBMS (database server)",
+                "A peice of software that enables users to create and maintain databases, and provides controlled access to the databases"
+            ],
+            "guid": "f.CCQ",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 5 components of a DBMS environment",
+                "<b>Hardware</b> - resources to run the software and storage media to store data<br><br><b>Software</b> - the DBMS itself, the OS it resides on, and applications or websites that interact with the DBMS to access the databases<br><br><b>Data</b> - the data stored in the databases and structure of that data (it's \"schema\") that keeps it organised appropriately<br><br><b>People</b> - database engineers, database administrators, application developers, end-users<br><br><b>Procedures</b> - for end users, database interaction and workflow controlled via applications and for the database owners/administrators, instructions and rules should be applied to the ongoing operation and maintenance of databases and DBMSs"
+            ],
+            "guid": "uYK@9",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does SQL stand for",
+                "Structured Query Language"
+            ],
+            "guid": "v9NJG",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a Relation when referring to relational databases",
+                "A two-dimensional table of data about a specific type of \"entity\" (thing)"
+            ],
+            "guid": "^RAaQ",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is an Attribute when referring to relational databases",
+                "A named column of a relation"
+            ],
+            "guid": "-6+*N",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a Domain when referring to relational databases",
+                "The range of allowable values for an attribute"
+            ],
+            "guid": "d_MPD",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a Tuple when referring to relational databases",
+                "A row of a relation, representing a single instance of the entity"
+            ],
+            "guid": "#2`9G",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a Relation Database",
+                "A collection of relations, each with a distinct name"
+            ],
+            "guid": "t}W:8",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the SQL terms for Relations, Tuples and Attributes",
+                "Relation = Table<br>Tuple = Row<br>Attribute = Column"
+            ],
+            "guid": "*OjVS",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a table schema ",
+                "A written depiction of a table and it's columns"
+            ],
+            "guid": "nHW%5",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a database schema ",
+                "A set of all the table schemas in a database"
+            ],
+            "guid": "^ZWV1",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What properties must every table include",
+                "Table name - must be different within the relation database schema<br><br>Column names - must be different within the table<br><br>Column values - must all be of the same domain (data type)<br><br>Rows - must not be identical to another row<br><br>Cells - must contain one single value"
+            ],
+            "guid": "n~3DV",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the purpose and importance of a primary key",
+                "There can only be 1 primary key column, each cell in that column must be different. This allows you to uniquely identify every row unambiguously."
+            ],
+            "guid": "O$xq9",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the purpose and importance of a foreign key",
+                "Define relationships between tables, this column references the primary key of another table."
+            ],
+            "guid": "l:3&L",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When writing up a table schema, how do you denote a primary key",
+                "By <u>underlining</u> the column name"
+            ],
+            "guid": "6::{S",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When 2 columns are combined to make a primary key it is called a...",
+                "Compound primary key"
+            ],
+            "guid": "-l2qH",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When writing up a table schema, how do you denote a foreign key",
+                "By <em>italicising</em> the column name"
+            ],
+            "guid": "E,GIU",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In an E-R diagram, what shape is represented as an entity in a logical diagram",
+                "A rounded corner box"
+            ],
+            "guid": "pDauQ",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In an E-R diagram, shape is represented as an entity in a physical diagram",
+                "A square corner box"
+            ],
+            "guid": "E|&tJ",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Should entity/table names be in singular or plural",
+                "Singular (Student, not Student<b>s</b>"
+            ],
+            "guid": "ZiTnU",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 3 types of relations in an E-R diagram",
+                "One-to-One (1:1)<br>One-to-Many (1:M)<br>Many-to-Many (M:M)"
+            ],
+            "guid": "t#:_M",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In what E-R diagram should you always resolve Many-to-Many relations",
+                "Physical E-R diagrams"
+            ],
+            "guid": "7Gm38",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In what E-R diagram can you have Many-to-Many relations without needing to resolve them, and what is the factor that means you do need to resolve them",
+                "Logical E-R diagrams<br><br>When the intermediary entity that would be resolved from the Many-to-Many relations contains attributes other than the foreign keys"
+            ],
+            "guid": "Ub9hH",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "On what side of a 1:M relation is the foreign key usually from",
+                "The M side<br><br>It should contain a foreign key of the primary key from the 1 side"
+            ],
+            "guid": "r2W=8",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The ___-end of a relationship must be created before the ____-end",
+                "one, many"
+            ],
+            "guid": "rVmf7",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Deleting a database is known as...",
+                "Dropping"
+            ],
+            "guid": "+V.;K",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The ____-end of a relation must be dropped before the ___-end",
+                "many, one"
+            ],
+            "guid": "H^gnQ",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What type of language is SQL, declaritive or imperative?",
+                "Declerative"
+            ],
+            "guid": "AReE%;-FXa",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What denotes a cell that has no value (not 0, not false etc.)",
+                "NULL"
+            ],
+            "guid": "qQXcBG1wM/",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the basic SELECT statement format",
+                "SELECT&nbsp; * | {column, ...}<br>FROM&nbsp; table<br>[WHERE conditions]<br>[ORDER BY {column, ...}];"
+            ],
+            "guid": "xav=i,L|NG",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you select all columns from a table",
+                "SELECT *<div>FROM table;</div>"
+            ],
+            "guid": "G{[w-#UcEe",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the recommended (but not necassary) syntax for writing SQL statements",
+                "- Keywords should be UPPERCASE<br>- Each new clause should be on a new line<br>- Indentation for enhanced readability<br><br>SELECT first_name<br>FROM employee<br>"
+            ],
+            "guid": "j+_Chyy}D*",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When manipulating a column during a SELECT statement, what is the manipulated columns name in the results",
+                "(blank)"
+            ],
+            "guid": "GdPzvpDT(3",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the purpose of a column alias",
+                "Allows you to specify an alternative name for a column in the query results during a SELECT statement"
+            ],
+            "guid": "L(zw)hjS[V",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What optional syntax should be included when denoting a column alias",
+                "AS<br>'alias'<br><br><font color=\"#0000ff\">SELECT</font> max_salary * 1.05 <font color=\"#0000ff\">AS</font> 'Post-raise Maximum'<br><font color=\"#0000ff\">FROM</font> job;"
+            ],
+            "guid": "EL@%#h0,8M",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the purpose of the CONCAT() function",
+                "Allows you to join multiple columns into a single column of results<br><br><font color=\"#0000ff\">SELECT</font> <font color=\"#ff00ff\">CONCAT</font>(first_name, ' ', last_name) <font color=\"#0000ff\">AS</font> 'full_name'<br><font color=\"#0000ff\">FROM</font> employee;"
+            ],
+            "guid": "tFSWYh9^W3",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the purpose of the DISTINCT keyword",
+                "Removes any identical rows in the columns result<br><br><font color=\"#0000ff\">SELECT</font> <font color=\"#0000ff\">DISTINCT</font> job_id<br><font color=\"#0000ff\">FROM</font> employee;"
+            ],
+            "guid": "rI9J.e,TFD",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the <font color=\"#0000ff\">WHERE</font> clause in a <font color=\"#0000ff\">SELECT</font> statement",
+                "The <font color=\"#0000ff\">WHERE</font> clause is optional and comes after the <font color=\"#0000ff\">FROM</font> clause, it identifies which row(s) should be returned. You can specify one or more conditions and only rows meeting that condition will be returned."
+            ],
+            "guid": "g<$}Pc$hQ!",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How many equal signs should be used for an equality comparison in a <font color=\"#0000ff\">SELECT</font> statement <font color=\"#0000ff\">WHERE</font> clause",
+                "= (1)<br><br>Not == like many other languages"
+            ],
+            "guid": "JkAP{WEq;)",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Are string comparisons in SQL case sensitive",
+                "No"
+            ],
+            "guid": "j-T.)pl;Z_",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What type of quotations must be used in SQL for literal strings",
+                "' ' (single quote marks)"
+            ],
+            "guid": "C+b=Q@U8Si",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What type of quotations must dates be enclosed in",
+                "' ' (single quote marks)"
+            ],
+            "guid": "P/yXn^|T3M",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the format you need to type dates in",
+                "YYYY-MM-DD"
+            ],
+            "guid": "OJk1CmBKNG",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the format do you need to type time in",
+                "HH:MM:SS (24-hour format)"
+            ],
+            "guid": "wW-~@PgNZy",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Do numeric values in SQL need quotations, spaces, commas or dollar signs",
+                "No<div><br></div><div>15000</div><div>Not $15,000.00</div>"
+            ],
+            "guid": "x+.Q3{wse&",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the SQL operators used in the <font color=\"#0000ff\">WHERE</font> clause that are not similar to other languages",
+                "column<font color=\"#0000ff\"> BETWEEN</font> lower_limit <font color=\"#0000ff\">AND</font> upper_limit<div>(same as '&gt;= numerical AND &lt;= numerical')<div><br>column<font color=\"#0000ff\"> IN </font>(value1, value2, valueN)</div><div>(same as 'column = 'value1' OR column = 'value2' etc.)</div><div><br>column <font color=\"#0000ff\">LIKE</font> 'search_pattern'</div><div>(% none or more char, _ exactly one char, [abc] any one char from this list, [^abc] any one char not from this list)</div><div><br>column <font color=\"#0000ff\">IS NULL</font></div><div>(Any cell that is NULL)</div><div><br>column <font color=\"#0000ff\">IS NOT NULL</font></div></div><div>(Any cell that is not NULL)</div>"
+            ],
+            "guid": "GguLv}fw8*",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What operators are you most likely to use <font color=\"#0000ff\">NOT</font> with",
+                "<font color=\"#0000ff\">NOT BETWEEN<br>NOT IN<br>NOT LIKE</font>"
+            ],
+            "guid": "HtD=,RSG|o",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When would you type the <font color=\"#0000ff\">ORDER</font> <font color=\"#0000ff\">BY</font> clause",
+                "At the very end, after <font color=\"#0000ff\">FROM</font>/<font color=\"#0000ff\">WHERE</font>"
+            ],
+            "guid": "BQ+NZ~]<s$",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the format of the <font color=\"#0000ff\">ORDER BY</font> clause",
+                "<font color=\"#0000ff\">ORDER BY</font> column (order type)<br><br>e.g. <font color=\"#0000ff\">ORDER BY</font> salary <font color=\"#0000ff\">ASC</font>"
+            ],
+            "guid": "zy:y)z3UI+",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you order SQL query results in Ascending or Descending order",
+                "<font color=\"#0000ff\">ORDER BY</font> column <font color=\"#0000ff\">ASC</font><br><font color=\"#0000ff\">ORDER BY</font> column <font color=\"#0000ff\">DESC</font>"
+            ],
+            "guid": "n-s,5U>;3Y",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Which of these two clauses (<font color=\"#0000ff\">WHERE</font>, <font color=\"#0000ff\">ORDER BY</font>) can you use alias's in",
+                "<font color=\"#0000ff\">ORDER BY</font><div><br></div><div>alias can NOT be used in <font color=\"#0000ff\">WHERE</font></div>"
+            ],
+            "guid": "pAZrtl/*&5",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the default ordering when using <font color=\"#0000ff\">ORDER BY</font> clause without parameters",
+                "Ascending"
+            ],
+            "guid": "N_lndYxwX5",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When ordering results by 2 columns, what is the order of that ordering",
+                "The first column of <font color=\"#0000ff\">ORDER BY</font> will be ordered, if that column contains duplicates it will then <font color=\"#0000ff\">ORDER BY</font> the second column and so on"
+            ],
+            "guid": "Nq(vO6Q>/r",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When using <font color=\"#0000ff\">TOP</font>, what should you always use with it",
+                "<font color=\"#0000ff\">ORDER BY</font>"
+            ],
+            "guid": "rLB}LEK<1e",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the format when using <font color=\"#0000ff\">TOP</font>, and how do you denote %, as well as any row that ties with the last row",
+                "<font color=\"#0000ff\">SELECT TOP</font> (value) [<font color=\"#0000ff\">PERCENT</font>]<font color=\"#0000ff\"> </font>[<font color=\"#0000ff\">WITH TIES</font>]"
+            ],
+            "guid": "bp&ks/sdc.",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<font color=\"#0000ff\">WHERE</font> is normally used in <font color=\"#0000ff\">SELECT</font> statements, but where else can you use <font color=\"#0000ff\">WHERE</font>",
+                "<font color=\"#0000ff\">UPDATE</font><div><font color=\"#0000ff\">DELETE</font></div>"
+            ],
+            "guid": "J#qeAC~9]#",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "About how many data types does SQL Server support",
+                "~30"
+            ],
+            "guid": "e4om!gZWi",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 5 types of string data types",
+                "CHAR(n) | Fixed-size string data (uses 'n' size of data, even if unused)<br>VARCHAR(n) | Variable-sized string data (uses size of data needed, up to 'n')<br>VARCHAR(max) | Variable-size string data (for large amount of text data)<br>NCHAR(n) | Fixed-size Unicode string data (like CHAR but 2bytes per character)<br>NVARCHAR(n) | Variable-size Unicode string data (like VARCHAR but 2bytes per character)"
+            ],
+            "guid": "ix7KJKRIgS",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 4 types of integer data",
+                "TINYINT | 0 to 255 (1 byte used)<br>SMALLINT | -32,768 to 32,767 (2 bytes used)<br>INT | -2,147,483,648 to 2,147,483,647 (4 bytes used)<br>BIGINT | -9.223 quintillion to 9.223 quintillion [~18 digit numbers] (8 bytes used)"
+            ],
+            "guid": "hR!)!kB)L4",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Which integer data types should you use",
+                "INT by default, SMALLINT(~32k-/+) or TINYINT(0-255) if the value will always be within its range"
+            ],
+            "guid": "j8#~]{Z^rE",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 4 types of decimal data types",
+                "FLOAT(n) | 'n' optional, specifies how many bits for decimal portion (4 or 8 bytes)<br>REAL | Same as specifying FLOAT(24), allows 7 decimal places (4 bytes)<br>DECIMAL/NUMERIC(p,s) | 'p' = total digits, 's' = decimal digits (5 to 17 bytes)<br>MONEY/SMALLMONEY | For currency, has 4 decimals of accuracy, MONEY is 19 digits total, SMALLMONEY is 9 digits total (4 or 8 bytes)"
+            ],
+            "guid": "j|Q{).~4tk",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the properties of the parameters p and s in DECIMAL(p,s)",
+                "p = Precision: total number of digits in the whole number (both sides of the decimal), Default - 18, Max - 38<br><br>s = Scale: total number of digits in the decimal place (right side of the decimal), Default - 0, Max - p<div><br></div><div>e.g.</div><div>DECIMAL(4,2) allows for values between -99.99 to 99.99</div><div>DECIMAL(2,2) allows for values between -.99 to .99 (-0.99 to 0.99)</div>"
+            ],
+            "guid": "B[GZ.5XZR)",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 5 types of date/time data types",
+                "DATETIME | Jan 1, 1753 to Dec 31, 9999 (~3 milliseconds, 8 bytes)<br>DATETIME2 | Jan 1, 0001 to Dec 31, 9999 (100 nanoseconds, 6-8 bytes)<br>SMALLDATETIME | Jan 1, 1900 to Jun 6, 2079 (1 minute, 4 bytes)<br>DATE | Jan 1, 0001 to Dec 31, 9999 (1 day, 3 bytes)<div>TIME | 00:00:00.0000000 to 23.59.59.9999999 (100 nanoseconds, 4-5 bytes)</div>"
+            ],
+            "guid": "P:+*/N:uLi",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 2 miscellaneous data types to do with data directly",
+                "BINARY | Store binary data, usually for files, known as BLOB (Binary Large OBject)<br><br>BIT | Can be 0 or 1 (or NULL), Takes 1 byte to store but 8 BIT columns can be packed together into 1 byte"
+            ],
+            "guid": "NF]?{=<$r1",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Common data type selection considerations",
+                "- Use the smallest possible (bytes) data type that is appropriate<div>- Always consider the maximum possible lengths/values possible long term</div><div>- Use numeric data types for numeric data so it can be manipulated</div><div>- Use VARCHAR when string length is variable and CHAR when length will be fixed</div>"
+            ],
+            "guid": "BLW~KZaz?5",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the minimum and maximum length a column name can be",
+                "1 - 128"
+            ],
+            "guid": "p^~jP",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the required syntax for creating a database",
+                "CREATE DATABASE database_name"
+            ],
+            "guid": "PwFMU",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When creating a table you _____ have _____ or more columns, and you _____ have _____ or more constraints",
+                "must, one<br>can, zero"
+            ],
+            "guid": "DP[oR",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the purpose of a default value in a column",
+                "When a row is inserted, if that column has not been specified then the default value is used instead, default value must match column data type but can be literal, an expression or function"
+            ],
+            "guid": "%Z1#7",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the purpose of the IDENTITY option",
+                "Usually used for primary keys and should omit a value when inserting, IDENTITY columns auto increment even if rows have been deleted, must be in an INT based column "
+            ],
+            "guid": "n0YoJ",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you specify the optional initial and increment value for the IDENTITY option",
+                "IDENTITY(100, 5)<br><br>Starts at 100 and increments by 5<br>(e.g. 100, 105, 110, 115...)"
+            ],
+            "guid": "53Q}M",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Why is it good practice to always specify NULL or NOT NULL",
+                "Because each DBMS works differently and the default could be either, in SQL server the default is NULL"
+            ],
+            "guid": "mu_.4",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 4 column constraints available in SQL server",
+                "PRIMARY KEY<br>FOREIGN KEY<br>UNIQUE<br>CHECK"
+            ],
+            "guid": "vXoXE",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Which two column options will automatically be set as NOT NULL",
+                "PRIMARY KEY<br>IDENTITY"
+            ],
+            "guid": "?`(tO",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Constraints on a compound (two columns) must be designated at the  ______ level",
+                "table"
+            ],
+            "guid": "+63E1",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you add a name to a constraint ",
+                "Adding<br>CONSTRAINT constraint_name<br>before the constraint<br><br>CONSTRAINT thing_pk PRIMARY KEY"
+            ],
+            "guid": "0US<9",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Constraint names must be unique across _______________",
+                "the entire database"
+            ],
+            "guid": "_rDBV",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the difference between PRIMARY KEY and UNIQUE",
+                "A primary key is used with foreign keys and can only be used once per table, whereas unique can be used multiple times but does not go with a foreign key"
+            ],
+            "guid": "_M%8Q",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Foreign keys enforce what is known as",
+                "Referential Integrity "
+            ],
+            "guid": "?o;M3",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the syntax for adding a foreign key constraint",
+                "... FOREIGN KEY REFERENCES table(column_name)"
+            ],
+            "guid": "F$?)O",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the purpose of a CHECK constraint ",
+                "Limits the values accepted by a column using an expression<br><br>The expression must be true for a value to be accepted"
+            ],
+            "guid": "B_~jB",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What's is the syntax for CHECK",
+                "... CHECK (column_name {expression})<br><br>LIKE,<br>IN,<br>BETWEEN AND<br>can be used "
+            ],
+            "guid": "XR`h1",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the syntax for altering a table to add a column",
+                "ALTER TABLE table_name<br>ADD column_name {column options}"
+            ],
+            "guid": "Gs9SM",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the syntax for altering a table to alter a column",
+                "ALTER TABLE table_name<br>ALTER COLUMN column_name {new options}"
+            ],
+            "guid": "1aFID",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the syntax when altering a table to drop a column",
+                "ALTER TABLE table_name<br>DROP COLUMN column_name"
+            ],
+            "guid": "ioy=I",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the syntax for altering a table to add a constraint to a column",
+                "ALTER TABLE table_name<br>ADD {constraint} column_name {constraint options}"
+            ],
+            "guid": ".[W2R",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the syntax for altering a table to drop a constraint ",
+                "ALTER TABLE table_name<br>DROP CONSTRAINT constraint_name"
+            ],
+            "guid": "_/VUN",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the syntax to drop a table",
+                "DROP TABLE table_name"
+            ],
+            "guid": "?y]QO",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the syntax to drop a database",
+                "DROP DATABASE database_name"
+            ],
+            "guid": "D_ZAT",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the purpose and syntax for truncate a table",
+                "Deletes all the rowsbut keeps the table and column structure (constraints etc.)<br><br>TRUNCATE TABLE table_name"
+            ],
+            "guid": "P:m]4",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        }
+    ]
+}
