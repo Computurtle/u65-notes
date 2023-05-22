@@ -30,11 +30,27 @@ To contribute your own flashcards, please fork the repo and create a pull reques
 4. In Anki, `Add` a new flashcard, make as many as you want, ensure you are adding it to the correct deck
 5. Once you have made your changes, `File > Export` and select `CrowdAnki JSON representation`
 6. Include the deck you made changes to and ensure `Include media` and `Include tags` is checked
-7. Commit your Changes [`git commit -m 'Added some cards'`] - *Commit message should be descriptive*
+7. Commit your Changes [`git commit -m 'add: MAT1252'`] - *See [Commit Message Guide](#commit-message-guide)*
 8. Push to the Branch [`git push origin my-anki-cards`] - *Or whatever you called your branch*
 9. Open a [Pull Request](https://github.com/Computurtle/u65-notes/compare) and your done! Repeat 2-9 anytime you want add more cards
 
 *If you don't want to contribute but simply want to use the flashcards, see [Usage](#usage)*
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- COMMIT MESSAGE GUIDE -->
+## Commit Message Guide
+
+When commiting please follow this guide, leave the pull request as the latest commit name 
+
+'`add: UNIT1234`'
+
+`add` = Added new cards </br>
+`del` = Deleted old cards </br>
+`fix` = Fixed old cards </br>
+
+Commits can include multiple types of changes as well as multiple decks </br>
+e.g. '`add/fix: MAT1252/CSI1101`'
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
