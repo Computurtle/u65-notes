@@ -120,20 +120,480 @@
         {
             "__type__": "Note",
             "fields": [
-                "Testing",
-                "Testing"
+                "What is Systems Analysis?",
+                "Systems Analysis is the process of studying and understanding a system's components, their interactions, and their relationships in order to design or improve the system."
             ],
-            "guid": "Pk.j+6MDk|",
+            "guid": "J;F?`AO2LZ",
             "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
-                "Test 2",
-                "Hopefully this works"
+                "What is a System?",
+                "A system is a collection of interrelated components that work together to achieve a common objective."
             ],
-            "guid": "yXEH9U&n#e",
+            "guid": "H7Oz*bS58~",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Requirements Gathering?",
+                "Requirements Gathering is the process of collecting and documenting the needs and expectations of stakeholders for a system."
+            ],
+            "guid": "O|B4#XrF6N",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Functional Requirement?",
+                "A Functional Requirement specifies the behavior or functionality that a system must possess to fulfill the needs of its users."
+            ],
+            "guid": "Esq1h_%_4g",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Non-Functional Requirement?",
+                "A Non-Functional Requirement specifies the quality attributes or constraints that a system must meet, such as performance, security, or usability."
+            ],
+            "guid": "D|IUGS-Hp.",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Use Case Diagram?",
+                "A Use Case Diagram is a visual representation of the interactions between actors and a system, depicting the different use cases or scenarios."
+            ],
+            "guid": "h:&U*`M(D+",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Data Flow Diagram (DFD)?",
+                "A Data Flow Diagram (DFD) is a graphical representation of the flow of data within a system, illustrating how inputs are transformed into outputs."
+            ],
+            "guid": "bZ3nQW&=p;",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Entity-Relationship Diagram (ERD)?",
+                "An Entity-Relationship Diagram (ERD) is a visual representation of the entities (objects), their attributes, and the relationships between them within a system."
+            ],
+            "guid": "cRn].;*rHH",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is System Development Life Cycle (SDLC)?",
+                "The System Development Life Cycle (SDLC) is a framework that describes the stages involved in the development of a system, including planning, analysis, design, implementation, and maintenance."
+            ],
+            "guid": "iqGtvMk|I`",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Feasibility Study?",
+                "A Feasibility Study assesses the viability and potential success of a proposed system by considering various aspects such as technical, economic, operational, and schedule feasibility."
+            ],
+            "guid": "n[1/LY{jqm",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Prototyping?",
+                "Prototyping involves creating an initial, simplified version of a system or its components to gather feedback, demonstrate functionality, and refine the system design."
+            ],
+            "guid": "t>WOss28T:",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is System Documentation?",
+                "System Documentation includes all the information related to a system, such as requirements documents, design specifications, user manuals, and technical documentation."
+            ],
+            "guid": "bd.3fcFepi",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Stakeholder Analysis?",
+                "Stakeholder Analysis is the process of identifying and analyzing the individuals or groups who have an interest or influence on the system, and understanding their needs and expectations."
+            ],
+            "guid": "lx%$;:kl1g",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is System Testing?",
+                "System Testing is the process of evaluating a system or its components to ensure that they function correctly and meet the specified requirements."
+            ],
+            "guid": "zF(H,>!za(",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Change Management?",
+                "Change Management involves managing and implementing changes to a system, considering the impact on stakeholders, and ensuring a smooth transition."
+            ],
+            "guid": "E&{,i0/<j@",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is User Acceptance Testing (UAT)?",
+                "User Acceptance Testing (UAT) is the final phase of testing where end-users verify that the system meets their requirements and is ready for deployment."
+            ],
+            "guid": "dZ=k*5jE=J",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is System Maintenance?",
+                "System Maintenance involves monitoring, updating, and enhancing the system to ensure its continued functionality, reliability, and alignment with changing needs."
+            ],
+            "guid": "nu%9YC;U^5",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Gap Analysis?",
+                "Gap Analysis compares the current state of a system to the desired state, identifying the gaps or discrepancies and determining the actions needed to bridge them."
+            ],
+            "guid": "pU)ys;fxr{",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Cost-Benefit Analysis?",
+                "Cost-Benefit Analysis is an evaluation technique that assesses the costs associated with a system development or improvement project and compares them to the expected benefits to determine its feasibility."
+            ],
+            "guid": "g:%0[*5Clv",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Risk Assessment?",
+                "Risk Assessment involves identifying and analyzing potential risks and uncertainties associated with a system, and developing strategies to mitigate or manage them."
+            ],
+            "guid": "z`#lCK!6!N",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a Use Case?",
+                "A Use Case is a specific interaction or scenario between an actor (user or system) and a system that represents a specific functionality or behavior of the system."
+            ],
+            "guid": "y0oRn`n,(Y",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Primary Actor?",
+                "The Primary Actor is the main user or system that initiates and interacts with a specific use case."
+            ],
+            "guid": "n5{#f-kuCQ",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Alternate Flow?",
+                "An Alternate Flow represents a variation or alternative path of a use case that occurs when certain conditions or exceptions are met."
+            ],
+            "guid": "taVZiViOIj",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Exception Flow?",
+                "An Exception Flow represents the path of a use case when an error or exception occurs during the normal flow of the use case."
+            ],
+            "guid": "qYc7[<!~Je",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is System Boundary?",
+                "The System Boundary defines the scope and context of the system, separating it from external entities or systems."
+            ],
+            "guid": "Q9N=Rn:)QZ",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Precondition?",
+                "A Precondition is a condition or set of conditions that must be true before a use case can be executed."
+            ],
+            "guid": "C)8.g(WaB|",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Postcondition?",
+                "A Postcondition is a condition or set of conditions that must be true after the successful completion of a use case."
+            ],
+            "guid": "d^~Lrwk.}y",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Extension Point?",
+                "An Extension Point is a predefined location within a use case where additional behavior can be added or extended by other use cases."
+            ],
+            "guid": "u%H&ta_qZ7",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Main Success Scenario?",
+                "The Main Success Scenario represents the normal flow or sequence of steps in a use case that leads to a successful outcome."
+            ],
+            "guid": "EH$t%fA`1l",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Actor-System Interaction Diagram?",
+                "An Actor-System Interaction Diagram illustrates the interactions between actors and the system in a use case, showing the messages or actions exchanged."
+            ],
+            "guid": "r]1Oy/Y:b_",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Fully Dressed Use Case?",
+                "A Fully Dressed Use Case is a detailed use case that includes all the essential elements, such as the main success scenario, alternate flows, exceptions, and pre- and postconditions."
+            ],
+            "guid": "dDUHoA3KdO",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is User Story?",
+                "A User Story is a brief, informal description of a specific user requirement or functionality, often used in Agile methodologies to capture user needs."
+            ],
+            "guid": "n[N1qg.+D{",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Inclusion Relationship?",
+                "An Inclusion Relationship represents a relationship between use cases where one use case includes the behavior or functionality of another use case."
+            ],
+            "guid": "n`CNe;Nc;q",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Extension Relationship?",
+                "An Extension Relationship represents a relationship between use cases where one use case can extend or modify the behavior of another use case."
+            ],
+            "guid": "b,/#a]<TH_",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Abstract Use Case?",
+                "An Abstract Use Case represents a high-level use case that provides a general description or overview of a particular functionality without going into specific details."
+            ],
+            "guid": "vv&{Np9Z5*",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Scenario?",
+                "A Scenario is a specific instance or example of a use case that describes a particular interaction between an actor and the system."
+            ],
+            "guid": "G^{mc9$rF)",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Use Case Prioritization?",
+                "Use Case Prioritization is the process of ranking or ordering use cases based on their importance, urgency, or value to the stakeholders."
+            ],
+            "guid": "IQI62BAq:A",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Use Case Realization?",
+                "Use Case Realization refers to the process of mapping or transforming use cases into detailed design specifications and technical implementations."
+            ],
+            "guid": "lzJ4?e6L3&",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "True or False: A use case represents a specific interaction or scenario between an actor and a system.",
+                "True"
+            ],
+            "guid": "Q44BJ<e+Wp",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you define the primary actor in a use case?",
+                "The primary actor in a use case is defined as the main user or system that initiates and interacts with the specific use case."
+            ],
+            "guid": "Pq-$]Z`&H#",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "True or False: An alternate flow in a use case represents a variation or alternative path that occurs when certain conditions are met.",
+                "True"
+            ],
+            "guid": "Lqu..^p-w|",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you handle exceptions in a use case?",
+                "Exceptions in a use case are handled by following the exception flow, which represents the path taken when an error or exception occurs during the normal flow of the use case."
+            ],
+            "guid": "tfxgi!:kC)",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you determine the system boundary in systems analysis?",
+                "The system boundary is determined by defining the scope and context of the system, separating it from external entities or systems."
+            ],
+            "guid": "zv]0M.b,Z*",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "True or False: Precondition specifies the conditions that must be true after the successful completion of a use case.",
+                "False"
+            ],
+            "guid": "woe=Q,^kM2",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How can you extend a use case?",
+                "A use case can be extended by adding additional behavior or functionality at predefined extension points within the use case."
+            ],
+            "guid": "wa>g3C)PA2",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How is the main success scenario different from alternate flows in a use case?",
+                "The main success scenario represents the normal flow or sequence of steps leading to a successful outcome, while alternate flows represent variations or alternative paths that occur under specific conditions."
+            ],
+            "guid": "H!_4~k@Q3[",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "True or False: An actor-system interaction diagram illustrates the interactions between actors and the system in a use case.",
+                "True"
+            ],
+            "guid": "FDwk.fI)|-",
+            "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How is a fully dressed use case different from a brief user story?",
+                "A fully dressed use case provides detailed information, including the main success scenario, alternate flows, exceptions, and pre- and postconditions, while a user story is a brief, informal description of a user requirement or functionality."
+            ],
+            "guid": "kf}AXePrq*",
             "note_model_uuid": "7e6536e0-1241-11ed-867d-d85ed324997c",
             "tags": []
         }
